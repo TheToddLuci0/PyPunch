@@ -4,6 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
+    include_package_data=True,
     name="PyPunch",
     version="1.0.0",
     author="TheToddLuci0",
@@ -21,5 +22,5 @@ setuptools.setup(
     ],
     python_requires='>=3',
     install_requires=['pillow'],
-    keywords=["punchcard", ]
+    keywords=["punchcard", ],
 )
