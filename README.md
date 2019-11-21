@@ -23,7 +23,8 @@ knowledge of the whole program and system architecture, and is therefore left as
 reader.
 <hr>
 
-`PyPubch.mappings`:
+`PyPunch.mappings`:
+
 This is a dict consisting of valid characters mapped to a list of the positions that need to be punched 
 out of the card. For example, `'I': (0, 11)` indicates that punching I requires a punch in positions 0 
 and 11. 
