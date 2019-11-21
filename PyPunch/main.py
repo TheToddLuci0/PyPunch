@@ -1,5 +1,6 @@
 from PIL import Image, ImageDraw
 import sys
+import os
 from .mappings import MAPPINGS as MAP
 
 
@@ -8,7 +9,8 @@ def build_card(command: str = "Example Command", out_file="out_card.png"):
         raise Exception("Command too long")
     # Template image taken from Columbia University
     # http://www.columbia.edu/cu/computinghistory/karlsruhe-card.jpg
-    im = Image.open('PyPunch/template_card.jpg').copy()
+    # im = Image.open('PyPunch/template_card.jpg').copy()
+    im = Image.open(os.path.join(os.path.dirname(__file__), 'template_card.jpg')).copy()
     draw = ImageDraw.Draw(im)
     counter = 0
     for c in command:
