@@ -1,5 +1,9 @@
 # PyPunch
 ### Python Punch Card Maker
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=TheToddLuci0_PyPunch&metric=alert_status)](https://sonarcloud.io/dashboard?id=TheToddLuci0_PyPunch)
+[![PyPI version fury.io](https://badge.fury.io/py/PyPunch.svg)](https://pypi.python.org/pypi/PyPunch/)
+[![GitHub license](https://img.shields.io/github/license/TheToddLuci0/PyPunch.svg)](https://github.com/TheToddLuci0/PyPunch/blob/master/LICENSE)
+
 
 ## Overview
 This package creates a simple graphical representation of an old IBM 029 keypunch puchcard.
